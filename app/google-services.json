@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710826430230",
+    "project_id": "netclanremake",
+    "storage_bucket": "netclanremake.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710826430230:android:0c97365b7d91dcb76bca37",
+        "android_client_info": {
+          "package_name": "com.example.netclanremake"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh3PmPShG5s55qgnf7iBXjj9EOUDP0-_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

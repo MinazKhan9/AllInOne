@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/exploreFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.allinone.Fragment.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/connectionFragment"
+        android:name="com.example.allinone.Fragment.ConnectionFragment"
+        android:label="fragment_connection"
+        tools:layout="@layout/fragment_connection" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.allinone.Fragment.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.allinone.Fragment.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.example.allinone.Fragment.GroupFragment"
+        android:label="fragment_group"
+        tools:layout="@layout/fragment_group" />
+</navigation>

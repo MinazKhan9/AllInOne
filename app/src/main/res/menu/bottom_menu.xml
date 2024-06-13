@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/explore"
+        android:id="@+id/exploreFragment"
+        android:title="Explore" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/connections"
+        android:id="@+id/connectionFragment"
+        android:title="Connections" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/chat"
+        android:id="@+id/chatFragment"
+        android:title="Chat" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/contact"
+        android:id="@+id/contactFragment"
+        android:title="Contacts" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/n_groups"
+        android:id="@+id/groupFragment"
+        android:title="Groups" />
+</menu>

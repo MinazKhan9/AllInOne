@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@drawable/baseline_groups_24"
+            android:title="My Network" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="Switch to Services" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/business"
+            android:title="Switch to Businesses" />
+        <item
+            android:id="@+id/nav_dating"
+            android:icon="@drawable/dating"
+            android:title="Dating" />
+        <item
+            android:id="@+id/nav_matrimony"
+            android:icon="@drawable/matrimony"
+            android:title="Matrimony" />
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/buy"
+            android:title="Buy-Sell-Rent" />
+        <item
+            android:id="@+id/nav_jobs"
+            android:icon="@drawable/jobs"
+            android:title="Jobs" />
+        <item
+            android:id="@+id/nav_bCards"
+            android:icon="@drawable/cards"
+            android:title="Business Cards" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location"
+            android:title="Live Locations" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="Sign Out" />
+    </group>
+</menu>
